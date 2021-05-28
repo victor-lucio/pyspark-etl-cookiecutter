@@ -1,0 +1,5 @@
+{
+    "project_name": "My ETL Project",
+    "project_name_slugged": "{{cookiecutter.project_name.lower().replace(' ', '-')}}",
+    "project_name_snake": "{{cookiecutter.project_name_slugged.replace('-', '_')}}"
+}
