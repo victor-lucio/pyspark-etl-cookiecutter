@@ -1,0 +1,3 @@
+# Integration Tests
+
+> Integration testing (sometimes called integration and testing, abbreviated I&T) is the phase in software testing in which individual software modules are combined and tested as a group. Integration testing is conducted to evaluate the compliance of a system or component with specified functional requirements. [Source](https://en.wikipedia.org/wiki/Integration_testing#:~:text=Integration%20testing%20(sometimes%20called%20integration,component%20with%20specified%20functional%20requirements.)
