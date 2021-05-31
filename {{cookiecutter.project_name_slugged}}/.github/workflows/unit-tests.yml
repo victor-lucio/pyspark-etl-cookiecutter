@@ -1,1 +1,27 @@
-# TODO
+name: "Tests"
+on:
+  push:
+    branches:
+      - main
+      - dev
+
+jobs:
+  Pipeline:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-python@v2
+      with:
+        python-version: {{cookiecutter.python_version}}
+
+    - name: Install dependencies
+      run: make requirements
+
+    - name: Style check
+      run: make style-check
+
+    - name: Quality check
+      run: make quality-check
+
+    - name: Unit Tests
+      run: make unit-tests
