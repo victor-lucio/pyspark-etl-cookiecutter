@@ -17,6 +17,7 @@ Then generate your project::
 ## Built With
 
 * [Python](https://www.python.org/) - Programming language
-* [Pylint](https://www.pylint.org/) - Python linter which checks the source code and also acts as a bug and quality checker. It has more verification checks and options than just PEP8(Python style guide).
+* [Flake8](https://flake8.pycqa.org/en/latest/) - Python linter which checks the source code and also acts as a bug and quality checker.
 * [Black](https://black.readthedocs.io/en/stable/) - Python code auto-formatter. Black reformats entire files in place and also formats the strings to have double-qoutes.
+* [Pyenv](https://github.com/pyenv/pyenv) - Version and environment management for developing and testing you project without any headache.
 * [GitHub Actions](https://docs.github.com/en/actions) - The built-in CI/CD workflow in GitHub, This will run your tests and deploy your application.
