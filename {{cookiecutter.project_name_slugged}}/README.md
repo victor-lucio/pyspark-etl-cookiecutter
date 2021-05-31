@@ -6,3 +6,5 @@ TODO
 
 ## Getting Started
 TODO
+
+Made with :heart: by {{cookiecutter.author}}.
