@@ -1,5 +1,8 @@
 {
     "project_name": "My ETL Project",
+    "author": "Awesome Developer",
     "project_name_slugged": "{{cookiecutter.project_name.lower().replace(' ', '-')}}",
-    "project_name_snake": "{{cookiecutter.project_name_slugged.replace('-', '_')}}"
+    "project_name_snake": "{{cookiecutter.project_name_slugged.replace('-', '_')}}",
+    "python_version": ["3.9.0", "3.8.7", "3.7.9", "3.6.12"],
+    "min_coverage": "75"
 }
