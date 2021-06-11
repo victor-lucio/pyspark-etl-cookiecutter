@@ -82,6 +82,12 @@ clean:
 	@find ./ -name '*.pyo' -exec rm -f {} \;
 	@find ./ -name '*~' -exec rm -f {} \;
 
+.PHONY: docs
+## Generates Docs
+docs:
+	@make -C docs/ html
+
+
 .DEFAULT_GOAL := help
 
 # Inspired by <http://marmelab.com/blog/2016/02/29/auto-documented-makefile.html>
