@@ -21,3 +21,4 @@ Then generate your project::
 * [Black](https://black.readthedocs.io/en/stable/) - Python code auto-formatter. Black reformats entire files in place and also formats the strings to have double-qoutes.
 * [Pyenv](https://github.com/pyenv/pyenv) - Version and environment management for developing and testing you project without any headache.
 * [GitHub Actions](https://docs.github.com/en/actions) - The built-in CI/CD workflow in GitHub, This will run your tests and deploy your application.
+* [Sphinx](https://www.sphinx-doc.org/en/master/index.html) - Sphinx is a tool that makes it easy to create intelligent and beautiful documentation, written by Georg Brandl and licensed under the BSD license.
