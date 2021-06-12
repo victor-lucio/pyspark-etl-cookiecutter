@@ -87,6 +87,10 @@ clean:
 docs:
 	@make -C docs/ html
 
+.PHONY: docker-build
+## Generates Docker Image
+docker-build:
+	@docker build --tag {{cookiecutter.project_name_slugged}} .
 
 .DEFAULT_GOAL := help
 
